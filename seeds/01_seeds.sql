@@ -8,9 +8,9 @@ INSERT INTO properties (owner_id, title, description, cost_per_night,
 parking_spaces,number_of_bathrooms,number_of_bedrooms,
 country,street,city,province,post_code,
 active, cover_photo_url,thumbnail_photo_url)
-VALUES (3, 'rons home', 'descrition', 20, 2,2,1,'canada','bolt ave', 'toronto' ,'ontairo', '1s33d4', true, 'www.photo.com', 'www.photo.com'),
+VALUES (1, 'rons home', 'descrition', 20, 2,2,1,'canada','bolt ave', 'toronto' ,'ontairo', '1s33d4', true, 'www.photo.com', 'www.photo.com'),
        (2, 'mels home', 'descrition', 21, 2,3,2,'canada','boilt ave', 'toronto' ,'ontairo', '1s23d4', true, 'www.photo2.com', 'www.photo2.com'),
-       (1, 'sals home', 'descrition', 22, 2,3,1,'canada','blolt ave', 'toronto' ,'ontairo', '1s13d4', true, 'www.photo3.com', 'www.photo3.com');
+       (3, 'sals home', 'descrition', 22, 2,3,1,'canada','blolt ave', 'toronto' ,'ontairo', '1s13d4', true, 'www.photo3.com', 'www.photo3.com');
 
 
 INSERT INTO reservations (start_date, end_date, property_id, guest_id)
